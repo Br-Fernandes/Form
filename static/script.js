@@ -7,7 +7,7 @@ passwordImage.forEach(element => {
       var img = parent.querySelector("img");
       console.log(img.src)
       
-      if(img.src == "file:///C:/Users/Cliente/.vscode/Form/static/images/show-password.png") {          
+      if(img.src == "https://br-fernandes.github.io/static/images/show-password.png") {          
         passwordInput.type = "text";
         img.src = "static/images/hide-password.png"
       } else {
