@@ -9,10 +9,10 @@ passwordImage.forEach(element => {
       
       if(img.src == "file:///C:/Users/Cliente/.vscode/Form/static/images/show-password.png") {          
         passwordInput.type = "text";
-        img.src = "../static/images/hide-password.png"
+        img.src = "static/images/hide-password.png"
       } else {
         passwordInput.type = "password";
-        img.src = "../static/images/show-password.png"
+        img.src = "static/images/show-password.png"
       } 
   });
 });
