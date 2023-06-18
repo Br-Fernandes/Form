@@ -7,12 +7,12 @@ passwordImage.forEach(element => {
       var img = parent.querySelector("img");
       console.log(img.src)
       
-      if(img.src == "https://br-fernandes.github.io/static/images/show-password.png") {          
+      if(img.src == "https://br-fernandes.github.io/Form/static/images/show-password.png") {          
         passwordInput.type = "text";
-        img.src = "https://br-fernandes.github.io/static/images/hide-password.png"
+        img.src = "https://br-fernandes.github.io/Form/static/images/hide-password.png"
       } else {
         passwordInput.type = "password";
-        img.src = "https://br-fernandes.github.io/static/images/show-password.png"
+        img.src = "https://br-fernandes.github.io/Form/static/images/show-password.png"
       } 
   });
 });
